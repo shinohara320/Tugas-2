@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.galeri-container{
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 60px;
+    width: 100%;
+    height: 580px;
+    margin: auto 80px;
+}
+/* GALERI HEADER */
+.galeri-header{
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.galeri-header h2{
+    box-sizing: border-box;
+    color: rgb(232,35,41);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 0;
+    text-transform: capitalize;
+}
+.galeri-header p{
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 15px 0 30px;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+/* GALERI BUTTON */
+.galeri-button{
+    height: 72px;
+    width: 1140px;
+    box-sizing: border-box;
+    display: flex;
+    flex : 0 0 auto;
+    flex-shrink: 0;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%   ;
+}
+.galeri-button ul{
+    background-color: rgb(255,255,255);
+    border-radius: 50px;
+    color: rgb(68,68,68);
+    list-style: none;
+    margin:0 auto 25px;
+    pad: 2px 15px;
+    padding-left: 2rem;
+    text-align: center;
+}
+.galeri-button ul li{
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50px;
+    color: rgb(68,68,68);
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 4px 8px;
+    padding: 8px 20px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.galeri-button ul li:hover{
+    border-color: rgb(233,34,44);
+    color: rgb(233, 34, 44)
+}
+/* GALERI CARD */
+.galeri-picture{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    height: 256px;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+.galeri-card{
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    font-size: 16px;
+    left: 0px;
+    width: 30%;
+    height: 240px;
+    cursor: pointer;
+}
+.galeri-card .img-parent{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.galeri-card .img-parent img{
+    transition: transform 0.3s ease;
+    width: 100%;
+    object-fit: cover;
+}
+.galeri-card .overlay h4{
+    color: rgb(68,68,68);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 0.5rem 0;
+}
+.galeri-card .overlay p{
+    box-sizing: border-box;
+    color: rgb(68,68, 68);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding: 0;
+    text-transform: uppercase;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overlay h4, .overlay p{
+    margin: 0;
+    text-align: center;
+}
+.overlay .galery-icon{
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.galery-icon img{
+    width: 5%;
+    margin: 0 15px;
+    border: 10px solid rgb(233, 34, 44);
+    background-color: rgb(233, 34, 44);
+    border-radius: 100px;
+}
+.galeri-card:hover .overlay{
+    opacity: 1;
+}
+.galeri-card:hover img{
+    transform: rotate(2deg) scale(1.5);
+    transform-origin:center ;
+}

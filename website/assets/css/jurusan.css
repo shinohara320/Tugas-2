@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.progstudi-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 60px 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.jurusan-container{
+    margin: 0 auto;
+    max-width: 1320px;
+    opacity: 1;
+    width: 100% ;
+}
+.jurusan-header {
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.jurusan-header h2{
+    color: rgb(232,35,41);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 0.5rem;
+    text-transform: capitalize;
+}
+.jurusan-header p{
+    color: rgb(68,68,68);
+    font-size: 16px;
+    margin : 15px 0 30px;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.highlight-jurusan{
+    background: #fff;
+    margin: 0 100px 20px;
+    border-bottom: 3px solid rgb(233,34,44);
+    border-radius: 5px;
+    box-shadow: rgba(1,41,112,0.09) 0 0 30px;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.highlight-jurusan img{
+    height: auto;
+    width: 600px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(68,68,68);
+    margin-bottom: 10px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.highlight-jurusan h3{
+    color: rgb(232,35,41);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+}
+.highlight-jurusan p{
+    color: rgb(68,68,68);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px 0px 30px;
+    margin-bottom: 1rem;
+}
+.highlight-jurusan span a{
+    color: rgb(232,35,41);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.highlight-jurusan:hover{
+    background:  rgb(233,34,44) ;
+}
+
+.highlight-jurusan:hover h3{
+    color: #fff;
+}
+
+.highlight-jurusan:hover p{
+    color: #fff;
+}
+
+.highlight-jurusan:hover span a{
+    color: #fff;
+}
+/* Mini Card TJA TKJ DKV RPL */
+.jurusan-mini-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.jurusan-mini-card .mini-card{
+    background-color: rgb(255,255,255);
+    border-bottom: 3px solid rgb(233,34,44);
+    border-radius: 5px;
+    box-shadow: rgba(1,41,112,0.09) 0 0 30px;
+    height: 600px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.jurusan-mini-card .mini-card img{
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    height: 221px;
+    width: 221px;
+}
+.jurusan-mini-card .mini-card h3{
+    color: rgb(233,34,44);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+.jurusan-mini-card .mini-card p{
+    color: rgb(68,68,68);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0px 30px 0px;  
+}
+.jurusan-mini-card .mini-card span a{
+      text-decoration: none;
+      color: rgb(233,34,44);
+      font-size: 16px;
+      font-weight: 500;
+}
+.mini-card:hover{
+    background-color: rgb(233,34,44);
+}
+.mini-card:hover h3{
+    color: rgb(255,255,255);
+}
+.mini-card:hover p{
+    color: rgb(255,255,255);
+}
+.mini-card:hover span a{
+    color: rgb(255,255,255);
+}
+/* landscape card */
+.landscape-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1350px;
+    background-color: rgb(233,34,44);
+    height: 200px;
+    overflow: hidden;
+    padding: 70px 0 60px;
+    margin: 50px 0 20px 0;
+}
+.mini-card-siswa{
+    display: flex;
+    align-items: center;
+    color: rgb(68,68,68);
+    background-color: rgb(255,255,255);
+    border-radius: 5px;
+    padding: 30px;
+    width: 210px;
+    height: 50px;
+}
+.mini-card-siswa span{
+    box-sizing: border-box;
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(68,68,68);
+}
+.mini-card-siswa img{
+      box-sizing: border-box;
+      margin-right: 10px;
+      vertical-align: middle;
+      width: 30%;
+}
+.mini-card-siswa p{
+    margin: 0;
+}

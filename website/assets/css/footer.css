@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.footer-top{
+    background: url("../images/footer-bg.png") right top /contain no-repeat white;
+    border-bottom: 1px solid rgb(248,248,248);
+    border-top: 1px solid rgb(248,248,248);
+    color: rgb(68,68,68);
+    padding: 60px 100px 30px 100px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+.footer-top .school-id{
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin: 30px 0 30px 80px;
+    max-width: 100%;
+    width: 30%;
+    height: 240px;
+}
+.footer-top .school-id img{
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-right:6px;
+    max-height: 40px;
+}
+.footer-top .school-id p{
+    box-sizing: border-box;
+    color: rgb(68,68,68);
+    font-size: 14px;
+    margin: 15px 0 30px;
+}
+.school-id .icon-sosmed a{
+    text-decoration: none;
+}
+.school-id .icon-sosmed a img{
+    width: 26px;
+    height: 26px;
+    margin: 1rem 0 0 0;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    text-align: left;
+    height: 240px;
+}
+.group-link{
+    display: flex;
+    align-items: center;
+}
+.menu .box-container .group-link img {
+    width: 10%;
+    margin-right: 0;
+
+}
+.menu .box-container .group-link a{
+    text-decoration: none;
+    margin: 0;
+    color: rgb(68,68,68);
+}
+
+.menu .jurusan-container .group-link img {
+    width: 10%;
+    margin-right: 0;
+
+}
+.menu .jurusan-container .group-link a{
+    text-decoration: none;
+    margin: 0;
+    color: rgb(68,68,68);
+}
+.contact-container {
+    width: 250px;
+}
+.contact-container p{
+    font-size: 14px;
+}
+.contact-container strong{
+    font-size: 14px;
+}
+.menu .jurusan-container .group-link a:hover,
+.menu .box-container .group-link a:hover{
+    color: rgb(232,35,41);
+}
+/* FOOTER END */
+.footer-bot{
+    padding-top: 30px;
+    text-align: center;
+    height: 100px;
+}
+.footer-bot p{
+    color: rgb(232,35,41);
+    margin-top: 0;
+    font-size: 12px;
+}

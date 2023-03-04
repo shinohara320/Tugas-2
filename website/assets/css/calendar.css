@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.calender-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height: 270px;
+    width: 1350px;
+    color: rgb(68,68,68);
+    overflow: hidden;
+    padding: 70px 0px;
+    margin: 0px 10px 30px 10px;
+}
+.calender-left{
+    width: 30%;
+}
+.calender-left img{
+    width: 570px;
+}
+.calender-right{
+    width: 40%;
+    text-align: center;
+}
+.calender-right h1{
+    color: rgb(232, 35, 41);
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.calender-right p{
+    color: rgb(68,68,68);
+    margin: 0;
+}
+.calender-right a{
+    color: rgb(232, 35, 41);
+    text-decoration: none;
+}
+.button-calender{
+    width: 500px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button-calender .agenda-semester{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    height: 100px;
+    width: 180px;
+    margin: 5px 20px 5px 20px;
+}
+.button-calender .agenda-semester img{
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}

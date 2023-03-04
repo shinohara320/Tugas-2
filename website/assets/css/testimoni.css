@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.testimoni-container{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.testimoni-header{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.testimoni-header h2{
+    color: rgb(232,35,41);
+    font-size: 2rem;
+    font-family: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.testimoni-header p{
+    font-size: 16px;
+    line-height: 32px;
+    margin: 15px 0 30px;
+    padding: 0px;  
+}
+/* TESTIMONIAL CARD */
+.testimoni-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1350px;
+    margin: auto;
+}
+.testimoni-card{
+    height: 500px;
+    width: 240px;
+    box-sizing: content-box;
+    color: rgb(68,68,68);
+    box-shadow: rgba(1,41,112,0.1) 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 30px;
+    min-height: 320px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255,255,255);
+}
+.testimoni-card .star-rating img{
+    width: 10%;
+}
+.testimoni-card .testimonial-text p{
+    font-style: italic;
+    color: rgb(68,68,68);
+    margin: 0 auto 15px;
+    margin-bottom: 1rem;
+}
+
+.testimoni-card .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: auto;
+}
+.testimoni-card .profile .profile-picture img{
+    border: 4px solid rgb(255,255,255);
+    border-radius: 50%;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 90px;
+}
+.testimoni-card .profile .profile-name h3{
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    font-size: 1.2rem;
+    font-weight: Bold;
+    margin: 10px 0 5px;
+    margin-bottom: 0.5rem;   
+}
+.testimoni-card .profile .employe h4{
+    color: rgb(153,153,154);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+/* swipper */
+.swipper{
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    left: 0;
+    width: 1116px;
+    margin: auto;
+    text-align: center;
+}
+.swipper .swipper-page{
+    border: 1px solid rgb(232,35,41);
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    margin: 0 4px;
+    opacity: 1;
+    width: 12px;
+}
+.swipper-page:hover {
+    background-color:rgb(232,35,41);
+}
